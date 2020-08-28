@@ -1,6 +1,6 @@
 ## Manufacture and distribution of Products
 
-Amiga500 single power is Open Hardware licensed under the CERN OHL v. 1.2.
+Amiga1200 single power is Open Hardware licensed under the CERN OHL v. 1.2.
 
 Following is an excerpt from Section 4 of the [license](LICENSE.pdf) - **Manufacture and distribution of Products** - where *product* means *either an entire, or any part of a, device built using the Documentation or the modified Documentation*:
 
