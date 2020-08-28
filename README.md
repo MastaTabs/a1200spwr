@@ -13,7 +13,7 @@ It also adds a power switch to the machine on the backside.
 
 ![A1200 Back](pix/a1200_pwr2.png)
 
-It has been tested by me and was found to be working good.
+This design has not been finally tested yet.
 
 ### License
 The Amiga1200 single power documentation, including the design itself, is copyright © MastaTabs (Tobias Seiler) 2020.
