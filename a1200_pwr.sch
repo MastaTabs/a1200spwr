@@ -670,6 +670,7 @@ F 3 "" H 7550 1750 50  0001 C CNN
 	1    7550 1750
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5000 2200
 Wire Wire Line
 	7000 5050 7000 5150
 Wire Wire Line
@@ -677,5 +678,4 @@ Wire Wire Line
 Connection ~ 7000 5150
 Wire Wire Line
 	7000 5150 7000 5750
-NoConn ~ 5000 2200
 $EndSCHEMATC

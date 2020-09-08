@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "A1200 single 12V power supply"
+Date "2020-08-28"
+Rev "1"
+Comp "MastaTabs @ a1k"
 Comment1 ""
 Comment2 ""
 Comment3 ""
