@@ -12,7 +12,7 @@
 "","","C3","10u","Device:C_Small","Capacitors_SMD:C_1206_HandSoldering","CGA5L1X7R1V106K160AC","","","","","","","","","",""
 "","","C4","10u","Device:C_Small","Capacitors_SMD:C_1206_HandSoldering","CGA5L1X7R1V106K160AC","","","","","","","","","",""
 "","","C5","10u 25V","Device:C_Small","Capacitors_SMD:C_1206_HandSoldering","C3216X5R1H106K160AB","","","","","","","","","",""
-"","","C6","22u","Device:C_Small","Capacitors_SMD:C_1206_HandSoldering","C3216X5R1H106K160AB","","","","","","","","","",""
+"","","C6","22u","Device:C_Small","Capacitors_SMD:C_1206_HandSoldering","C3216X5R1V226M160AC","","","","","","","","","",""
 "","","C7","330u","Device:C","Capacitors_THT:CP_Radial_D8.0mm_P3.50mm","~","","","","","","","","","",""
 "","","D1","700mV","Device:D_Schottky_Small","Diodes_SMD:D_SMA_Handsoldering","B360A-13-F","","","","","","","","","",""
 "","","J1","PJ-102A","barreljack:PJ-102A","a1200_pwr:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A","https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf","Connectors, Interconnects","https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf","/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425","CONN PWR JACK 2X5.5MM SOLDER","CP-102A-ND","Barrel - Power Connectors","","PJ-102A","CUI Inc.","Active"
