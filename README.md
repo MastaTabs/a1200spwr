@@ -7,11 +7,7 @@ It can deliver upto 6A @ 5V and 500mA @ -12V. The 12V line is passed through.
 
 It also adds a power switch to the machine on the backside.
 
-![A1200](pix/a1200_pwr.png)
-
-![A1200 Top](pix/a1200_pwr1.png)
-
-![A1200 Back](pix/a1200_pwr2.png)
+![A1200](pix/a1200_pwr_rev2.png)
 
 This design has not been finally tested yet.
 
