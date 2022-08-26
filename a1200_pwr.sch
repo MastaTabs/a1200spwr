@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L a1200_pwr:LMZM23601SILR U1
+L a1200_pwr-rescue:LMZM23601SILR-a1200_pwr U1
 U 1 1 5E0DF919
 P 7750 5200
 F 0 "U1" H 7750 5725 50  0000 C CNN

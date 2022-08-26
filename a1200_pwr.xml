@@ -1,210 +1,400 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch</source>
-    <date>Fr 28 Aug 2020 18:35:56 CEST</date>
-    <tool>Eeschema 5.1.6</tool>
+    <source>/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.kicad_sch</source>
+    <date>Fr 26 Aug 2022 22:16:40 CEST</date>
+    <tool>Eeschema (6.0.7)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>A1200 single 12V power supply</title>
         <company>MastaTabs @ a1k</company>
-        <rev>1</rev>
-        <date>2020-08-28</date>
-        <source>a1200_pwr.sch</source>
+        <rev>2</rev>
+        <date>2022-08-26</date>
+        <source>a1200_pwr.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
-    <comp ref="U1">
-      <value>LMZM23600SILR</value>
-      <footprint>a1200_pwr:SIL0010A</footprint>
-      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Flmzm23600.pdf</datasheet>
-      <libsource lib="a1200_pwr" part="LMZM23601SILR" description=""/>
+    <comp ref="C1">
+      <value>10u 25V</value>
+      <datasheet>https://www.mouser.de/datasheet/2/400/lcc_commercial_general_en-837201.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/400/lcc_commercial_general_en-837201.pdf</field>
+        <field name="MPN">C3216X5R1H106K160AB</field>
+        <field name="Reference">C1</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Herstellernr." value=""/>
+      <property name="Datasheet" value="https://www.mouser.de/datasheet/2/400/lcc_commercial_general_en-837201.pdf"/>
+      <property name="MPN" value="C3216X5R1H106K160AB"/>
+      <property name="Reference" value="C1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0DF919</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0e049f</tstamps>
     </comp>
     <comp ref="C2">
       <value>100n 50V</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <datasheet>C2012X7R2A104K125AA</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0E00AA</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>10u 25V</value>
-      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/400/lcc_commercial_general_en-837201.pdf</datasheet>
       <fields>
-        <field name="Herstellernr.">C3216X5R1H106K160AB</field>
+        <field name="MPN">C2012X7R2A104K125AA</field>
+        <field name="Reference">C2</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C2012X7R2A104K125AA"/>
+      <property name="Reference" value="C2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0E049F</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0e00aa</tstamps>
     </comp>
     <comp ref="C3">
       <value>10u</value>
-      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <datasheet>CGA5L1X7R1V106K160AC</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="MPN">CGA5L1X7R1V106K160AC</field>
+        <field name="Reference">C3</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="CGA5L1X7R1V106K160AC"/>
+      <property name="Reference" value="C3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0E0955</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0e0955</tstamps>
     </comp>
     <comp ref="C4">
       <value>10u</value>
-      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <datasheet>CGA5L1X7R1V106K160AC</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0E16A6</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>280k 1%</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf</datasheet>
       <fields>
-        <field name="Herstellernr.">CRCW0603280KFKEA</field>
+        <field name="MPN">CGA5L1X7R1V106K160AC</field>
+        <field name="Reference">C4</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="CGA5L1X7R1V106K160AC"/>
+      <property name="Reference" value="C4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0E2162</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0e16a6</tstamps>
     </comp>
-    <comp ref="R2">
-      <value>25.5k</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf</datasheet>
+    <comp ref="C5">
+      <value>10u 50V</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>C3216X5R1H106K160AB</datasheet>
       <fields>
-        <field name="Herstellernr.">CRCW060325K5FKEA</field>
+        <field name="MPN">C3216X5R1H106K160AB</field>
+        <field name="Reference">C5</field>
+        <field name="Value">10u 50V</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C3216X5R1H106K160AB"/>
+      <property name="Reference" value="C5"/>
+      <property name="Value" value="10u 50V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0E26D6</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e1277eb</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22u 35V</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</datasheet>
+      <fields>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser</field>
+        <field name="MPN">C3216X5R1C226M160AB</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Reference">C6</field>
+        <field name="Value">22u 35V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="ProdNr." value=""/>
+      <property name="Datasheet" value="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"/>
+      <property name="MPN" value="C3216X5R1C226M160AB"/>
+      <property name="Reference" value="C6"/>
+      <property name="Value" value="22u 35V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e12a386</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>330u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/860160373021-1725922.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/445/860160373021-1725922.pdf</field>
+        <field name="MPN">860160373021</field>
+        <field name="Manufacturer">Wuerth</field>
+        <field name="Reference">C7</field>
+        <field name="Value">330u</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Wuerth"/>
+      <property name="ProdNo." value=""/>
+      <property name="Datasheet" value="https://www.mouser.de/datasheet/2/445/860160373021-1725922.pdf"/>
+      <property name="MPN" value="860160373021"/>
+      <property name="Reference" value="C7"/>
+      <property name="Value" value="330u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e364c29</tstamps>
     </comp>
     <comp ref="D1">
       <value>700mV</value>
-      <footprint>Diodes_SMD:D_SMA_Handsoldering</footprint>
       <datasheet>B360A-13-F</datasheet>
+      <fields>
+        <field name="MPN">B360A-13-F</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Reference">D1</field>
+      </fields>
       <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="MPN" value="B360A-13-F"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Reference" value="D1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0EC2F4</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0ec2f4</tstamps>
     </comp>
     <comp ref="J1">
       <value>PJ-102A</value>
-      <footprint>a1200_pwr:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A</footprint>
       <datasheet>https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</datasheet>
       <fields>
         <field name="Category">Connectors, Interconnects</field>
         <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</field>
         <field name="Description">CONN PWR JACK 2X5.5MM SOLDER</field>
         <field name="Digi-Key_PN">CP-102A-ND</field>
         <field name="Family">Barrel - Power Connectors</field>
         <field name="MPN">PJ-102A</field>
         <field name="Manufacturer">CUI Inc.</field>
+        <field name="Reference">J1</field>
         <field name="Status">Active</field>
       </fields>
       <libsource lib="barreljack" part="PJ-102A" description="CONN PWR JACK 2X5.5MM SOLDER"/>
+      <property name="Digi-Key_PN" value="CP-102A-ND"/>
+      <property name="MPN" value="PJ-102A"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Barrel - Power Connectors"/>
+      <property name="DK_Datasheet_Link" value="https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425"/>
+      <property name="Description" value="CONN PWR JACK 2X5.5MM SOLDER"/>
+      <property name="Manufacturer" value="CUI Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Datasheet" value="https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf"/>
+      <property name="Reference" value="J1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0F1A03</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0f1a03</tstamps>
     </comp>
     <comp ref="J2">
       <value>APWR_big</value>
-      <footprint>a1200_pwr:APWR_big</footprint>
-      <datasheet>~</datasheet>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">J2</field>
+      </fields>
       <libsource lib="a1200_pwr-rescue" part="Conn_01x04-connect" description=""/>
+      <property name="Datasheet" value="~"/>
+      <property name="Reference" value="J2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0F4CB7</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0f4cb7</tstamps>
     </comp>
     <comp ref="J3">
       <value>APWR_small</value>
-      <footprint>a1200_pwr:APWR_small</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="Category">Connectors, Headers</field>
+        <field name="Datasheet"/>
+        <field name="Reference">J3</field>
       </fields>
       <libsource lib="a1200_pwr-rescue" part="Conn_01x03-connect" description=""/>
+      <property name="Category" value="Connectors, Headers"/>
+      <property name="Datasheet" value="~"/>
+      <property name="Reference" value="J3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0FADCB</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>RPM5.0-6.0</value>
-      <footprint>a1200_pwr:RPM5.0-6.0</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/468/RPM-6.0-1398219.pdf</datasheet>
-      <libsource lib="a1200_pwr" part="RPM5.0-6.0" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E10C8ED</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0fadcb</tstamps>
     </comp>
     <comp ref="L1">
       <value>742792510</value>
       <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/445/742792510-1720733.pdf</datasheet>
       <fields>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/445/742792510-1720733.pdf</field>
+        <field name="MPN">742792510</field>
         <field name="Manufacturer">Würth</field>
+        <field name="Reference">L1</field>
+        <field name="Value">742792510</field>
       </fields>
-      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <libsource lib="a1200_pwr-rescue" part="Ferrite_Bead_Small-Device" description=""/>
+      <property name="Manufacturer" value="Würth"/>
+      <property name="ProdNr." value=""/>
+      <property name="Datasheet" value="https://www.mouser.de/datasheet/2/445/742792510-1720733.pdf"/>
+      <property name="MPN" value="742792510"/>
+      <property name="Reference" value="L1"/>
+      <property name="Value" value="742792510"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E11ED99</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e11ed99</tstamps>
     </comp>
     <comp ref="L2">
       <value>7427932</value>
       <footprint>a500_pwr:fb_5v</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/445/7427932-1720978.pdf</datasheet>
       <fields>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/445/7427932-1720978.pdf</field>
+        <field name="MPN">7427932</field>
         <field name="Manufacturer">Würth</field>
+        <field name="Reference">L2</field>
+        <field name="Value">7427932</field>
       </fields>
-      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <libsource lib="a1200_pwr-rescue" part="Ferrite_Bead_Small-Device" description=""/>
+      <property name="Manufacturer" value="Würth"/>
+      <property name="ProdNr." value=""/>
+      <property name="Datasheet" value="https://www.mouser.de/datasheet/2/445/7427932-1720978.pdf"/>
+      <property name="MPN" value="7427932"/>
+      <property name="Reference" value="L2"/>
+      <property name="Value" value="7427932"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E126F9E</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e126f9e</tstamps>
     </comp>
-    <comp ref="C5">
-      <value>10u 25V</value>
-      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
-      <datasheet>C3216X5R1H106K160AB</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+    <comp ref="R1">
+      <value>280k 1%</value>
+      <datasheet>https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf</field>
+        <field name="MPN">CRCW0603280KFKEA</field>
+        <field name="Reference">R1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Herstellernr." value=""/>
+      <property name="Datasheet" value="https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf"/>
+      <property name="MPN" value="CRCW0603280KFKEA"/>
+      <property name="Reference" value="R1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E1277EB</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0e2162</tstamps>
     </comp>
-    <comp ref="C6">
-      <value>22u</value>
-      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
-      <datasheet>C3216X5R1H106K160AB</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
+    <comp ref="R2">
+      <value>25.5k</value>
+      <datasheet>https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf</field>
+        <field name="MPN">CRCW060325K5FKEA</field>
+        <field name="Reference">R2</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Herstellernr." value=""/>
+      <property name="Datasheet" value="https://www.mouser.de/datasheet/2/427/dcrcwe3-45987.pdf"/>
+      <property name="MPN" value="CRCW060325K5FKEA"/>
+      <property name="Reference" value="R2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E12A386</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e0e26d6</tstamps>
     </comp>
     <comp ref="R3">
       <value>Rdown</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Reference">R3</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Reference" value="R3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E133C8C</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e133c8c</tstamps>
     </comp>
     <comp ref="R4">
       <value>Rup</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Reference">R4</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Reference" value="R4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E13473C</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>330u</value>
-      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E364C29</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005e13473c</tstamps>
     </comp>
     <comp ref="SW1">
-      <value>RMS1R102M7QES</value>
+      <value>SW_SPDT</value>
       <footprint>a1200_pwr:rock_sw</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/418/NG_CD_2267087_A_2267087_c.dwg-680380.pdf</datasheet>
-      <libsource lib="a1200_pwr" part="PWR_SW" description=""/>
+      <fields>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/418/NG_CD_2267087_A_2267087_c.dwg-680380.pdf</field>
+        <field name="MPN">RMS1R102M7QES</field>
+        <field name="Reference">SW1</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="ProdNr." value=""/>
+      <property name="Datasheet" value="https://www.mouser.de/datasheet/2/418/NG_CD_2267087_A_2267087_c.dwg-680380.pdf"/>
+      <property name="MPN" value="RMS1R102M7QES"/>
+      <property name="Reference" value="SW1"/>
+      <property name="Value" value="SW_SPDT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E43C212</tstamp>
+      <tstamps>9d73cd07-9b5d-4790-b0de-ed05d4aa6988</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LMZM23600SILR</value>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Flmzm23600.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Flmzm23600.pdf</field>
+        <field name="MPN">lmzm23600</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Reference">U1</field>
+      </fields>
+      <libsource lib="a1200_pwr-rescue" part="LMZM23601SILR-a1200_pwr" description=""/>
+      <property name="Datasheet" value="http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Flmzm23600.pdf"/>
+      <property name="MPN" value="lmzm23600"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Reference" value="U1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e0df919</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>RPM5.0-6.0</value>
+      <datasheet>https://www.mouser.de/datasheet/2/468/RPM-6.0-1398219.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/468/RPM-6.0-1398219.pdf</field>
+        <field name="MPN">RPM5.0-6.0</field>
+        <field name="Manufacturer">RECOM Power</field>
+        <field name="Reference">U2</field>
+      </fields>
+      <libsource lib="a1200_pwr" part="RPM5.0-6.0" description=""/>
+      <property name="Datasheet" value="https://www.mouser.de/datasheet/2/468/RPM-6.0-1398219.pdf"/>
+      <property name="MPN" value="RPM5.0-6.0"/>
+      <property name="Manufacturer" value="RECOM Power"/>
+      <property name="Reference" value="U2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e10da2f 00000000-0000-0000-0000-00005e10c8ed</tstamps>
     </comp>
   </components>
   <libparts>
@@ -217,14 +407,15 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C_Small">
-      <description>Unpolarized capacitor</description>
+      <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
       <footprints>
         <fp>C_*</fp>
@@ -232,10 +423,11 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="D_Schottky_Small">
@@ -250,27 +442,11 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">D_Schottky_Small</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="Ferrite_Bead_Small">
-      <description>Ferrite bead, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-        <fp>*Ferrite*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">Ferrite_Bead_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R_Small">
@@ -282,39 +458,25 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="a1200_pwr" part="LMZM23601SILR">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LMZM23601SILR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="MODE_SYNC" type="input"/>
-        <pin num="3" name="Vin" type="power_in"/>
-        <pin num="4" name="EN" type="input"/>
-        <pin num="6" name="Vout" type="power_out"/>
-        <pin num="7" name="FB" type="input"/>
-        <pin num="8" name="DNC" type="NotConnected"/>
-        <pin num="9" name="DNC" type="NotConnected"/>
-        <pin num="10" name="DNC" type="NotConnected"/>
-        <pin num="11" name="PAD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="a1200_pwr" part="PWR_SW">
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
       <fields>
         <field name="Reference">SW</field>
-        <field name="Value">PWR_SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="input"/>
-        <pin num="2" name="2" type="input"/>
-        <pin num="3" name="3" type="input"/>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="a1200_pwr" part="RPM5.0-6.0">
@@ -323,6 +485,7 @@
         <field name="Reference">U</field>
         <field name="Value">RPM5.0-6.0</field>
         <field name="Footprint">a500_pwr:RPM5.0-6.0</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/468/RPM-6.0-1398219.pdf</field>
       </fields>
       <pins>
         <pin num="A1" name="Vin" type="power_in"/>
@@ -346,7 +509,7 @@
         <pin num="D4" name="GND" type="power_in"/>
         <pin num="D5" name="GND" type="power_in"/>
         <pin num="E1" name="SEQ" type="input"/>
-        <pin num="E2" name="Nc" type="NotConnected"/>
+        <pin num="E2" name="Nc" type="no_connect"/>
         <pin num="E3" name="GND" type="power_in"/>
         <pin num="E4" name="GND" type="power_in"/>
         <pin num="E5" name="Trim" type="input"/>
@@ -381,6 +544,39 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="a1200_pwr-rescue" part="Ferrite_Bead_Small-Device">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="a1200_pwr-rescue" part="LMZM23601SILR-a1200_pwr">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMZM23601SILR-a1200_pwr</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="MODE_SYNC" type="input"/>
+        <pin num="3" name="Vin" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="6" name="Vout" type="power_out"/>
+        <pin num="7" name="FB" type="input"/>
+        <pin num="8" name="DNC" type="no_connect"/>
+        <pin num="9" name="DNC" type="no_connect"/>
+        <pin num="10" name="DNC" type="no_connect"/>
+        <pin num="11" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="barreljack" part="PJ-102A">
       <description>CONN PWR JACK 2X5.5MM SOLDER</description>
       <docs>https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</docs>
@@ -400,15 +596,18 @@
         <field name="Status">Active</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="Device">
-      <uri>/usr/share/kicad/library/Device.lib</uri>
+      <uri>/usr/space/build/kicad5-symbols/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/space/build/kicad5-symbols/Switch.lib</uri>
     </library>
     <library logical="a1200_pwr">
       <uri>/home/masta/Desktop/projects/a1200_power/a1200_pwr/a1200_pwr.lib</uri>
@@ -421,120 +620,120 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(L1-Pad1)">
-      <node ref="L1" pin="1"/>
-      <node ref="U2" pin="A1"/>
-      <node ref="U2" pin="A2"/>
+    <net code="1" name="+5V">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
     </net>
-    <net code="2" name="Net-(U2-PadC1)">
-      <node ref="U2" pin="C1"/>
+    <net code="2" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Vin" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="3" name="Net-(L2-Pad2)">
-      <node ref="U2" pin="A5"/>
-      <node ref="U2" pin="B5"/>
-      <node ref="R3" pin="2"/>
-      <node ref="U2" pin="C5"/>
-      <node ref="L2" pin="2"/>
+    <net code="3" name="-12V">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="PAD" pintype="power_in"/>
     </net>
-    <net code="4" name="Net-(U2-PadD1)">
-      <node ref="U2" pin="D1"/>
+    <net code="4" name="/5Vout">
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="A5" pinfunction="Vout" pintype="power_out"/>
+      <node ref="U2" pin="B5" pinfunction="Vout" pintype="power_out"/>
+      <node ref="U2" pin="C5" pinfunction="Sense" pintype="power_in"/>
     </net>
-    <net code="5" name="Net-(U2-PadE1)">
-      <node ref="U2" pin="E1"/>
+    <net code="5" name="/SW12V">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(U2-PadE2)">
-      <node ref="U2" pin="E2"/>
+    <net code="6" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="Vout" pintype="power_out"/>
+      <node ref="U2" pin="A3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="A4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="B1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="B2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="B3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="B4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="C2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="C3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="C4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="D2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="D3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="D4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="D5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="E3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="E4" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="7" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1"/>
-      <node ref="U2" pin="E5"/>
-      <node ref="R4" pin="2"/>
+    <net code="7" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="A1" pinfunction="Vin" pintype="power_in"/>
+      <node ref="U2" pin="A2" pinfunction="Vin" pintype="power_in"/>
     </net>
-    <net code="8" name="GND">
-      <node ref="C1" pin="2"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="D1" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J1" pin="3"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="J2" pin="4"/>
-      <node ref="C3" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J3" pin="2"/>
-      <node ref="J3" pin="3"/>
-      <node ref="U2" pin="C2"/>
-      <node ref="U2" pin="A3"/>
-      <node ref="U2" pin="A4"/>
-      <node ref="U2" pin="B1"/>
-      <node ref="U2" pin="B2"/>
-      <node ref="U2" pin="B3"/>
-      <node ref="U2" pin="B4"/>
-      <node ref="U2" pin="C3"/>
-      <node ref="U2" pin="C4"/>
-      <node ref="U2" pin="D2"/>
-      <node ref="U2" pin="D3"/>
-      <node ref="U2" pin="D4"/>
-      <node ref="U2" pin="E4"/>
-      <node ref="U2" pin="E3"/>
-      <node ref="U2" pin="D5"/>
-      <node ref="C7" pin="2"/>
+    <net code="8" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="9" name="Net-(SW1-Pad3)">
-      <node ref="SW1" pin="3"/>
+    <net code="9" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="E5" pinfunction="Trim" pintype="input"/>
     </net>
-    <net code="10" name="+12V">
-      <node ref="U1" pin="4"/>
-      <node ref="U1" pin="3"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="SW1" pin="2"/>
+    <net code="10" name="unconnected-(SW1-Pad3)">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive+no_connect"/>
     </net>
-    <net code="11" name="+5V">
-      <node ref="C6" pin="1"/>
-      <node ref="L2" pin="1"/>
-      <node ref="J2" pin="3"/>
+    <net code="11" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="MODE_SYNC" pintype="input"/>
     </net>
-    <net code="12" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
+    <net code="12" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="13" name="Net-(U1-Pad11)">
-      <node ref="U1" pin="11"/>
+    <net code="13" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="14" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="2"/>
+    <net code="14" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="15" name="Net-(U1-Pad8)">
-      <node ref="U1" pin="8"/>
+    <net code="15" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PGOOD" pintype="output"/>
     </net>
-    <net code="16" name="Net-(U1-Pad9)">
-      <node ref="U1" pin="9"/>
+    <net code="16" name="unconnected-(U2-PadC1)">
+      <node ref="U2" pin="C1" pinfunction="CTRL" pintype="input"/>
     </net>
-    <net code="17" name="Net-(R1-Pad2)">
-      <node ref="U1" pin="7"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R2" pin="1"/>
+    <net code="17" name="unconnected-(U2-PadD1)">
+      <node ref="U2" pin="D1" pinfunction="PGood" pintype="output"/>
     </net>
-    <net code="18" name="-12V">
-      <node ref="D1" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="J2" pin="2"/>
-      <node ref="U1" pin="11"/>
-      <node ref="C3" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C2" pin="2"/>
+    <net code="18" name="unconnected-(U2-PadE1)">
+      <node ref="U2" pin="E1" pinfunction="SEQ" pintype="input"/>
     </net>
-    <net code="19" name="/SW12V">
-      <node ref="SW1" pin="1"/>
-      <node ref="J1" pin="1"/>
+    <net code="19" name="unconnected-(U2-PadE2)">
+      <node ref="U2" pin="E2" pinfunction="Nc" pintype="no_connect"/>
     </net>
   </nets>
 </export>
